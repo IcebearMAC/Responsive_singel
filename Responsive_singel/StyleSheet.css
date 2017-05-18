@@ -2,8 +2,16 @@
     /*background-image: url(Images/coffee.jpg);*/
     background-color: black;
     background-size: cover;
-    background-repeat: no-repeat;
     overflow: scroll;
+}
+
+p {
+    color:white;
+}
+
+header {
+    height: 50px;
+    margin: 0px;
 }
 
 img {
@@ -21,21 +29,38 @@ img {
     float: left;
 }
 
-
 #logo {
     position: relative;
-    left: 270px;
-    top: 210px;
+    width: 230px;
+    left:  100px;
+    top: 70px;
 }
 
-#main_text {
+#home_text {
     display: inline-block;
     padding: 20px;
     position: relative;
     margin-top: 170px;
-    margin-left: 600px;
+    margin-left: 550px;
     color: white;
-    background: rgba(76, 175, 80, 0.4);
+    background: rgba(76, 175, 80, 0.7);
+}
+
+#about_text {
+    display: inline-block;
+    padding: 0px;
+    position: relative;
+    margin-left: 400px;
+    color: white;
+    background: rgba(76, 175, 80, 1.0);
+    margin-top: -100px;
+}
+
+#contact_text {
+    position: relative;
+    margin-left: 330px;
+    color: white;
+
 }
 
 footer {
@@ -50,22 +75,70 @@ footer {
     text-align: center;
 }
 
-.About {
-    background-color: lightgreen;
+#home {
+    background-image: url(Images/coffee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 600px;
 }
 
-.Coffee_Shop {
-    background-color: red;
+#About {
+    background: rgba(76, 175, 80, 1.0);
     width: 100%;
     height: 600px;
 }
 
-.Coffee_Party {
-    background-color: yellow;
+#Coffee_Shop {
+    background-color: darkolivegreen;
+    width: auto;
+    height: auto;
+    border: none;
+}
+
+#enclosure {
+    position: relative;
+    width: auto;
+    height: 200px;
+}
+
+#ima {
+    position: relative;
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 80px;
+    text-align: center;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+    text-align: center;
+}
+
+#Coffee_Party {
+    background-color: forestgreen;
     width: 100%;
-    height: 600px;
+    height: 580px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Geneva, Verdana, sans-serif;
+    font-style:italic;
+    color: white;
+    padding-top: 100px;
+    padding-bottom:20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: white;
+    padding-bottom: 20px;
 }
 
 
