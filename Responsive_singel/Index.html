@@ -2,9 +2,125 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+    <title>Coffee Shop</title>
+    <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
 
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="StyleSheet.css" type="text/css" />
+    <link rel="stylesheet" href="menu.css" type="text/css" />
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <header>   
+        <nav>
+            <ul id="menu">
+                <li id="Coffee">Coffee Party AB</li>
+                <li><a href="#Coffee_Party">Coffee Party</a></li>
+                <li><a href="#Coffee_Shop">Coffee Shop</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Home" >Home</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+
+    <div class="Home" class="active">
+        <div>
+            <img src="Images/coffee.jpg" alt="Backdround with smoking hot coffee">
+            
+        </div>
+    </div>
+
+    <div class="About">
+        <div>
+            <div>
+                <div id="logo">
+                    <img src="Images/Coffee_Break.jpg" alt="Coffee Party Logo" style="width:221;height:70px;">
+                </div>
+                <div id="main_text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <br>Morbi purus dui, tristique sit amet lorem id,vestibulum
+                        <br>feugiat lectus. Duis vel augue risus. Maecenas nec blandit
+                        <br>arcu. Vestibulum nec nisi ac justo fermentum luctus dapibus
+                        <br>in neque. Integer sodales viverra tristique. Quisque pulvinar
+                        <br>euismod orci sed blandit. Duis id orci velit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Coffee_Shop" >
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Beans</button>
+                <div class="dropdown-content">
+                    <a href="#"><img src="Images/Coffee_bean_1.jpg" alt="Coffee bean Maragoipe" style="width:50px; height:50px;"> Maragogipe</a>
+                    <a href="#"><img src="Images/Coffee_bean_2.png" alt="Coffee bean Blue Mountain" style="width:50px; height:50px;">Blue Mountian</a>
+                    <a href="#"><img src="Images/Coffee_bean_3.png" alt="Coffee bean Java" style="width:50px; height:50px;">Java</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Machines</button>
+                <div class="dropdown-content">
+                    <a href="#"><img src="Images/Coffee_machine_1.jpg" alt="Coffee bean Maragoipe" style="width:50px; height:50px;"> Turbo 1</a>
+                    <a href="#"><img src="Images/coffee_machine_2.jpg" alt="Coffee bean Maragoipe" style="width:50px; height:50px;"> Extra Turbo</a>
+                    <a href="#"><img src="Images/Coffee_machine_3.jpg" alt="Coffee bean Maragoipe" style="width:50px; height:50px;"> Éxtreme Turbo</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Muggs</button>
+                <div class="dropdown-content">
+                    <a href="#"><img src="Images/Coffee_cup_1.jpg" alt="Coffee bean Maragoipe" style="width:50px; height:50px;"> Regular</a>
+                    <a href="#"><img src="Images/Coffee_cup_2.jpg" alt="Coffee bean Maragoipe" style="width:50px; height:50px;"> Larger</a>
+                    <a href="#"><img src="Images/Coffee_cup_3.jpg" alt="Coffee bean Maragoipe" style="width:50px; height:50px;"> Espresso</a>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <div id="Coffee_Party">
+
+        <div>
+            <div>
+                <div id="main_text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <br>Morbi purus dui, tristique sit amet lorem id,vestibulum
+                        <br>feugiat lectus. Duis vel augue risus. Maecenas nec blandit
+                        <br>arcu. Vestibulum nec nisi ac justo fermentum luctus dapibus
+                        <br>in neque. Integer sodales viverra tristique. Quisque pulvinar
+                        <br>euismod orci sed blandit. Duis id orci velit.
+                    </p>
+                    <p></p>
+                    <form>
+                        First name<br>
+                        <input type="text" name="firstname" /><br />
+                        Last name:<br />
+                        <input type="text" name="lastname" /><br />
+                        Date:<br />
+                        <input type="text" name="date" />
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer>All Rights Reserved &copy;Coffee Party AB</footer>
 </body>
 </html>
